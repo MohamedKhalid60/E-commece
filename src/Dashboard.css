@@ -1,0 +1,44 @@
+/* global */
+/* topbar */
+body {
+  position: relative;
+}
+.topBar {
+  box-shadow: 0 0 20px rgba(0, 153, 204, 0.347);
+  padding: 20px 0;
+  z-index: 222;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+}
+.topBar .btn {
+  padding: 10px 80px !important;
+  font-size: 20px;
+}
+/* sidebar */
+.dashboard-body .item {
+  box-shadow: 0 0 20px rgba(0, 153, 204, 0.347);
+  border-right: 2px solid rgba(56, 67, 70, 0.283);
+  height: 100vh;
+}
+.dashboard-body .card-item {
+  margin-top: 20px;
+}
+
+.table thead {
+  background-color: rgba(9, 62, 23, 0);
+  font-size: 20px;
+}
+.table thead th {
+  color: rgb(17, 26, 87);
+  padding: 16px 0;
+  text-align: center;
+}
+.users {
+  padding: 40px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}

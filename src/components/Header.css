@@ -1,0 +1,35 @@
+header{
+    background-color: #ffff !important;
+    /* height: 50px; */
+}
+
+
+.header li{
+    font-size: 18px;
+    color:#000 !important;
+    transition: all .5s;
+    
+}
+
+.header li:hover{
+    font-size: 20px;
+}
+.header span{
+    margin: 7px 20px;
+    width: 50px;
+}
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    color: #000;
+}
+.header .navbar-brand{
+    font-size: 30px;
+}
+header h2{
+    color: var(--heading, #1D1D1D);
+text-align: left;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 30px;
+}
